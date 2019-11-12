@@ -59,7 +59,7 @@ null_resource.server[0] (local-exec): 0
 null_resource.server[0]: Creation complete after 0s [id=7185187773844065705]
 ```
 
-### 6 - Terraform destroy
+### 6 - terraform destroy
 
 ```terraform
 terraform destroy
