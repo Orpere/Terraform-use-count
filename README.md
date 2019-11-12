@@ -5,7 +5,7 @@ This repo has as dependencies a command line or shell git and terraform.You can 
 
 ## How can I use this repo`?`
 
-### Task - clone repo Terraform-use-count
+### 1 - clone repo Terraform-use-count
 
 - open your shell or command line and go to the directory where you pretend to add the repo
 
@@ -17,13 +17,13 @@ cd <directory where pretend to add the repo>
 git clone git@github.com:Orpere/Terraform-use-count.git
 ```
 
-### Task - move to your repo folder
+### 2 - move to your repo folder
 
 ```bash
 cd Terraform-use-count
 ```
 
-### Task - terraform init
+### 3 - terraform init
 
 - this will retrieve all dependencies for terraform files
 
@@ -31,7 +31,7 @@ cd Terraform-use-count
 terraform init
 ```
 
-### Task - run terraform apply
+### 4 - run terraform apply
 
 ```terraform
 terraform apply
@@ -42,7 +42,7 @@ terraform apply
 
  
 
-### Task - check the result
+### 5 - check the result
 
 - In this case was used count plus index what should look like the bellow
 
@@ -60,7 +60,7 @@ null_resource.server[0] (local-exec): 0
 null_resource.server[0]: Creation complete after 0s [id=7185187773844065705]
 ```
 
-### Task - Terraform destroy
+### 6 - Terraform destroy
 
 ```terraform
 terraform destroy
