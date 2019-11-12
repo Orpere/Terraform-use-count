@@ -17,7 +17,7 @@ cd <directory where pretend to add the repo>
 ```
 
 ```git
-git clone git@github.com:Orpere/terraform-use-count.git
+git clone git@github.com:orpere/terraform-use-count.git
 ```
 
 ### 2 - move to your repo folder
