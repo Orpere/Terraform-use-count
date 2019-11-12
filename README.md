@@ -1,13 +1,16 @@
 # terraform-use-count -> repo that you can use to see how count with index and null_provider work
-## how can I use this repository?
+
+## how can I use this repository`?`
 
 This repo has as dependencies a command line or shell git and terraform.You can find the install instructions bellow on [EXTRAS](#extras) section.
 
 ## How can I use this repo`?`
 
+_Note_: my login on GitHub is capitalized and that is the reason why the "Orpere" appears like this.
+
 ### 1 - clone repo terraform-use-count
 
-- open your shell or command line and go to the directory where you pretend to add the repo
+- open your shell or command line and go to the directory where you pretend to add the repo.
 
 ```bash
 cd <directory where pretend to add the repo>
@@ -25,7 +28,7 @@ cd terraform-use-count
 
 ### 3 - terraform init
 
-- this will retrieve all dependencies for terraform files
+- this will retrieve all dependencies for terraform files.
 
 ```terraform
 terraform init
@@ -37,16 +40,14 @@ terraform init
 terraform apply
 ```
 
-- This step will prompt <<Do you want to perform these actions?>>
-  the answer should be **yes** 
-
- 
+- This step will prompt `<<`Do you want to perform these actions?`>>`
+  - the answer should be **yes**
 
 ### 5 - check the result
 
 - In this case was used count plus index what should look like the bellow
 
-```terraform 
+```terraform
 
 null_resource.server[0]: Creating...
 null_resource.server[1]: Creating...
