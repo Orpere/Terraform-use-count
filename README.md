@@ -1,11 +1,11 @@
-# Terraform-use-count -> repo that you can use to see how count with index and null_provider work
+# terraform-use-count -> repo that you can use to see how count with index and null_provider work
 ## how can I use this repository?
 
 This repo has as dependencies a command line or shell git and terraform.You can find the install instructions bellow on [EXTRAS](#extras) section.
 
 ## How can I use this repo`?`
 
-### 1 - clone repo Terraform-use-count
+### 1 - clone repo terraform-use-count
 
 - open your shell or command line and go to the directory where you pretend to add the repo
 
@@ -14,13 +14,13 @@ cd <directory where pretend to add the repo>
 ```
 
 ```git
-git clone git@github.com:Orpere/Terraform-use-count.git
+git clone git@github.com:Orpere/terraform-use-count.git
 ```
 
 ### 2 - move to your repo folder
 
 ```bash
-cd Terraform-use-count
+cd terraform-use-count
 ```
 
 ### 3 - terraform init
