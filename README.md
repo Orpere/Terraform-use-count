@@ -42,7 +42,7 @@ terraform apply
 
  
 
-### Task - check the result of the useful provider
+### Task - check the result
 
 - In this case was used count plus index what should look like the bellow
 
